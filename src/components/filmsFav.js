@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './films.css'
 
 export default function FilmsData({savedfilm}) {
-   const films = [...savedfilm,'name'] ;
+   const films = [...savedfilm] ;
 
   return (
   <div className="favor">

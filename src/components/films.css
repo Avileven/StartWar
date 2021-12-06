@@ -38,6 +38,7 @@ color:blue;
 
   
 /* position the props on the screen */
+@media screen and (max-width:1400px){
   .film-abstract {
    display:inline-block;
    background-color: chartreuse;
@@ -56,3 +57,43 @@ color:blue;
     border-radius: 4px;
 
   }
+}
+
+/* position the props on mobile screen */
+@media screen and (max-width:400px){
+  .film-abstract {
+   display:inline-block;
+   background-color: chartreuse;
+   
+   width:80%;
+   
+  }
+
+  .film-select{
+    display:inline-block;
+    width:80%;
+    margin-right: 20px;
+  }
+
+  .film-abstract{
+    box-shadow: 4px 4px 6px rgba(116, 79, 79, 0.05);
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+
+  }
+
+  .select-list {
+    max-width: 200px;
+    margin: 10px auto;
+    font-size: 25px;
+    color:blue;
+    box-shadow: 4px 4px 6px rgba(116, 79, 79, 0.05);
+    margin-right: 20px;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    
+   }
+   favorites h1{
+     font-size: 40px;
+   }
+}
