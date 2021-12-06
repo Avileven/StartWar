@@ -1,0 +1,58 @@
+/* titles to select  */
+.select{
+background-color:rgb(241, 215, 220);
+color:blue;
+
+}
+.select h1{
+  color:rgb(85, 87, 84);
+  margin-bottom: 130px;
+ padding-top: 60px;
+}
+
+.select-list {
+   max-width: 400px;
+   margin: 30px auto;
+   font-size: 20px;
+   color:blue;
+   box-shadow: 4px 4px 6px rgba(116, 79, 79, 0.05);
+   margin-left: 100px;
+   border: 1px solid #e4e4e4;
+   border-radius: 4px;
+   
+  }
+  
+  .favorites {
+   color:darkolivegreen;
+  
+  }
+
+  .favorites-item {
+   margin-bottom: 30px; 
+
+  }
+  .favorites h1{
+    color:darkolivegreen;
+    margin:20px auto; 
+  }
+
+  
+/* position the props on the screen */
+  .film-abstract {
+   display:inline-block;
+   background-color: chartreuse;
+   width:45%;
+   margin:10px;
+  }
+
+  .film-select{
+    display:inline-block;
+    width:45%;
+  }
+
+  .film-abstract{
+    box-shadow: 4px 4px 6px rgba(116, 79, 79, 0.05);
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+
+  }
